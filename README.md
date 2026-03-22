@@ -33,9 +33,20 @@ CIPHER is an EEG speech-decoding pipeline covering:
 
 Python 3.10+ recommended.
 
+Option A (venv, for manual python commands):
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Option B (conda, recommended if you use run_cipher.sh):
+
+```bash
+conda create -n cipher python=3.10 -y
+conda activate cipher
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -81,11 +92,11 @@ python train_all.py --seed 42
 python evaluate_all.py --seed 42
 ```
 
-For speed-oriented ablations (non-deterministic kernels):
+For speed-oriented ablations (reduced training budget):
 
 ```bash
-python train_all.py --non-deterministic
-python evaluate_all.py --non-deterministic
+python train_all.py --max-epochs 40 --patience 8 --seed 42
+python evaluate_all.py --analysis metrics --analysis wer --dry-run --seed 42
 ```
 
 ## Quick Start (Full Pipeline)

@@ -68,20 +68,21 @@ CTC_ELIGIBLE = {"phoneme_identity"}
 # ===========================================================================
 DEFAULT_CONFIG = {
     "model_type": "conformer",
-    "d_model": 192,
+    "d_model": 256,
     "n_conformer_blocks": 4,
-    "n_heads": 4,
+    "n_heads": 8,
     "conv_channels": 64,
     "conv_kernel": 15,
-    "dropout": 0.3,
-    "label_smoothing": 0.0,
-    "lr": 3e-4,
+    "dropout": 0.2,
+    "label_smoothing": 0.1,
+    "lr": 5e-4,
     "weight_decay": 1e-4,
     "batch_size": 64,
-    "max_epochs": 120,
-    "patience": 20,
+    "max_epochs": 150,
+    "patience": 30,
     "scheduler_patience": 6,
     "scheduler_factor": 0.5,
+    "mixup_alpha": 0.1,
     "multi_task": False,   # set per-experiment below
     "ctc": False,          # set per-experiment below
     "ctc_weight": 0.3,
@@ -93,7 +94,7 @@ DEFAULT_CONFIG = {
     "use_multiscale": True,
     "use_se": True,
     "use_attention_pool": True,
-    "drop_path_rate": 0.15,
+    "drop_path_rate": 0.05,
 }
 
 MODELS_ROOT = Path(__file__).resolve().parent / "models_out"

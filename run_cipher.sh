@@ -94,7 +94,7 @@ fi
 
 # ── Stage 4: Training ───────────────────────────────────────────────────
 if should_run train; then
-    log "STAGE 4/5: Training GRU decoders"
+    log "STAGE 4/5: Training CIPHER decoders"
     $PY train_all.py $DRY_RUN --skip-existing --seed "$SEED"
 fi
 

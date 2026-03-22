@@ -13,6 +13,7 @@ Usage:
 
 import argparse
 import os
+import random
 import sys
 import warnings
 from pathlib import Path
@@ -795,6 +796,8 @@ def process_subject(
 
 def main():
     parser = argparse.ArgumentParser(description="CIPHER Preprocessing Pipeline")
+    parser.add_argument("--seed", type=int, default=42,
+                        help="Random seed for reproducible preprocessing")
     parser.add_argument("--dry-run", action="store_true",
                         help="Process only sub-P01 and sub-S01 for testing")
     parser.add_argument("--workers", type=int, default=None,
@@ -814,6 +817,10 @@ def main():
     parser.add_argument("--subjects", type=str, default=None,
                         help="Comma-separated subject IDs to process (overrides dry/full defaults)")
     args = parser.parse_args()
+
+    # Keep preprocessing choices deterministic across runs.
+    random.seed(args.seed)
+    np.random.seed(args.seed)
 
     global OUT_ROOT
     if args.out_root:

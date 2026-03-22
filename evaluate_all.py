@@ -2,7 +2,7 @@
 """
 CIPHER — Master evaluation script.
 
-Runs all evaluation analyses on trained GRU models:
+Runs all evaluation analyses on trained CIPHER models:
   1. Cross-dataset accuracy / F1 / confusion matrices / WER
   2. Real word vs pseudoword analysis
   3. TMS condition analysis
@@ -17,10 +17,13 @@ Usage:
 """
 
 import argparse
+import random
 import sys
 import textwrap
 from datetime import datetime
 from pathlib import Path
+
+import numpy as np
 
 # Ensure project root is on path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -52,6 +55,10 @@ ALL_ANALYSES = ["metrics", "ensemble", "wer", "real_vs_pseudo", "tms", "modality
 def main():
     parser = argparse.ArgumentParser(description="CIPHER full evaluation pipeline")
     parser.add_argument(
+        "--seed", type=int, default=42,
+        help="Random seed for reproducible evaluation",
+    )
+    parser.add_argument(
         "--analysis", action="append", default=None,
         choices=ALL_ANALYSES + ["all"],
         help="Which analysis to run (can be repeated). Default: all.",
@@ -65,6 +72,17 @@ def main():
         help="Enable v3 enhancements (TTA)",
     )
     args = parser.parse_args()
+
+    random.seed(args.seed)
+    np.random.seed(args.seed)
+    try:
+        import torch
+        torch.manual_seed(args.seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(args.seed)
+    except Exception:
+        # Keep evaluation robust even if torch is not available in CPU-only checks.
+        pass
 
     analyses = args.analysis or ["all"]
     if "all" in analyses:
