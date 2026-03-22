@@ -1,0 +1,48 @@
+======================================================================
+ZETTA — Evaluation Summary Report
+Generated: 2026-03-20 13:19:22
+======================================================================
+
+CROSS-DATASET EVALUATION
+----------------------------------------
+  Best study2_val: top1=1.000 F1=1.000 (erp/manner/lip)
+  Best study1_test: top1=1.000 F1=1.000 (erp/manner/lip)
+
+ENSEMBLE ERP + DDA
+----------------------------------------
+  Best study2_val: top1=1.000 F1=1.000 (manner/lip)
+  Best study1_test: top1=1.000 F1=1.000 (manner/null)
+
+WORD ERROR RATE (TRIPHONES)
+----------------------------------------
+  erp/cvc_real_words/study2_val: WER=0.767 (n=120)
+  erp/cvc_pseudowords/study2_val: WER=0.817 (n=120)
+  dda/cvc_real_words/study2_val: WER=0.600 (n=120)
+  dda/cvc_pseudowords/study2_val: WER=0.800 (n=120)
+
+REAL WORD vs PSEUDOWORD
+----------------------------------------
+  erp: real=0.190 pseudo=0.233 t=-1.783 p=0.0949 n.s.
+  dda: real=0.079 pseudo=0.075 t=0.187 p=0.8545 n.s.
+
+TMS CONDITION ANALYSIS
+----------------------------------------
+  erp/bilabial: F=0.791 p=0.5299 n.s.
+  erp/alveolar: F=3.458 p=0.1140 n.s.
+  dda/bilabial: F=7.496 p=0.0681 n.s.
+  dda/alveolar: F=0.516 p=0.6256 n.s.
+
+PERCEPTION vs PRODUCTION
+----------------------------------------
+  erp/phoneme_identity: perception only (no spoken data)
+  erp/place: perception only (no spoken data)
+  erp/manner: perception only (no spoken data)
+  erp/category: perception only (no spoken data)
+  dda/phoneme_identity: perception only (no spoken data)
+  dda/place: perception only (no spoken data)
+  dda/manner: perception only (no spoken data)
+  dda/category: perception only (no spoken data)
+
+======================================================================
+Pipeline: preprocess.py → train_all.py → evaluate_all.py
+======================================================================

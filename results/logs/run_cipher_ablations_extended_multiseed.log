@@ -1,0 +1,1012 @@
+CIPHER ablations (8-8):   0%|          | 0/90 [00:00<?, ?run/s]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4019  train_acc=0.088  val_loss=1.8162  val_acc=0.089  lr=6.00e-05  (3.8s)
+      Epoch   8/8  train_loss=2.2609  train_acc=0.096  val_loss=1.9065  val_acc=0.070  lr=2.70e-04  (3.1s)
+      Test (Study 1):  loss=2.1710  acc=0.091
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   1%|          | 1/90 [00:34<51:36, 34.79s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4031  train_acc=0.093  val_loss=1.8172  val_acc=0.079  lr=6.00e-05  (3.8s)
+      Epoch   8/8  train_loss=2.2504  train_acc=0.099  val_loss=1.8481  val_acc=0.097  lr=2.70e-04  (3.1s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1732  acc=0.117
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   2%|▏         | 2/90 [01:10<51:44, 35.28s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4013  train_acc=0.080  val_loss=1.8167  val_acc=0.065  lr=6.00e-05  (3.9s)
+      Epoch   8/8  train_loss=2.3067  train_acc=0.098  val_loss=1.8833  val_acc=0.078  lr=2.70e-04  (3.0s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1583  acc=0.113
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   3%|▎         | 3/90 [01:43<49:54, 34.42s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4012  train_acc=0.084  val_loss=1.8158  val_acc=0.088  lr=6.00e-05  (3.6s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=2.1410  acc=0.099
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   4%|▍         | 4/90 [02:13<46:39, 32.55s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4043  train_acc=0.101  val_loss=1.8154  val_acc=0.157  lr=6.00e-05  (3.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=2.1568  acc=0.102
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   6%|▌         | 5/90 [02:35<40:35, 28.65s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4007  train_acc=0.095  val_loss=1.8147  val_acc=0.083  lr=6.00e-05  (3.8s)
+      Epoch   8/8  train_loss=2.2974  train_acc=0.102  val_loss=1.8773  val_acc=0.080  lr=2.70e-04  (3.0s)
+      Test (Study 1):  loss=2.2054  acc=0.103
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   7%|▋         | 6/90 [03:08<42:25, 30.30s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4027  train_acc=0.086  val_loss=1.8170  val_acc=0.100  lr=6.00e-05  (3.6s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1518  acc=0.131
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   8%|▊         | 7/90 [03:33<39:25, 28.50s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4010  train_acc=0.085  val_loss=1.8171  val_acc=0.092  lr=6.00e-05  (3.7s)
+      Epoch   8/8  train_loss=2.2710  train_acc=0.090  val_loss=1.8530  val_acc=0.078  lr=2.70e-04  (3.0s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1557  acc=0.108
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):   9%|▉         | 8/90 [04:08<41:36, 30.45s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4010  train_acc=0.092  val_loss=1.8168  val_acc=0.053  lr=6.00e-05  (3.7s)
+      Epoch   8/8  train_loss=2.3087  train_acc=0.097  val_loss=1.8911  val_acc=0.071  lr=2.70e-04  (3.0s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1599  acc=0.075
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  10%|█         | 9/90 [04:41<42:28, 31.46s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4002  train_acc=0.101  val_loss=1.8151  val_acc=0.054  lr=6.00e-05  (3.7s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1444  acc=0.110
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  11%|█         | 10/90 [05:07<39:22, 29.53s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.3966  train_acc=0.088  val_loss=1.8154  val_acc=0.160  lr=6.00e-05  (3.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=2.1359  acc=0.117
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  12%|█▏        | 11/90 [05:27<35:19, 26.83s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4005  train_acc=0.082  val_loss=1.8150  val_acc=0.052  lr=6.00e-05  (3.8s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=2.1910  acc=0.122
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  13%|█▎        | 12/90 [05:58<36:32, 28.11s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4001  train_acc=0.094  val_loss=1.8165  val_acc=0.074  lr=6.00e-05  (3.5s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=2.1467  acc=0.106
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  14%|█▍        | 13/90 [06:26<35:49, 27.91s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4021  train_acc=0.086  val_loss=1.8162  val_acc=0.107  lr=6.00e-05  (3.5s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=2.1431  acc=0.110
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  16%|█▌        | 14/90 [06:47<32:52, 25.95s/run]Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4015  train_acc=0.100  val_loss=1.8162  val_acc=0.130  lr=6.00e-05  (3.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=2.1485  acc=0.085
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  17%|█▋        | 15/90 [07:08<30:39, 24.53s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6870  train_acc=0.506  val_loss=0.3362  val_acc=0.846  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1781  acc=0.982
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  18%|█▊        | 16/90 [07:27<27:52, 22.61s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6873  train_acc=0.508  val_loss=0.3338  val_acc=0.715  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.1835  acc=0.881
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  19%|█▉        | 17/90 [07:47<26:38, 21.90s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6889  train_acc=0.500  val_loss=0.3340  val_acc=0.745  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1899  acc=0.743
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  20%|██        | 18/90 [08:05<24:55, 20.78s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6874  train_acc=0.497  val_loss=0.3352  val_acc=0.568  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=0.1777  acc=0.833
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  21%|██        | 19/90 [08:27<24:58, 21.10s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6907  train_acc=0.505  val_loss=0.3346  val_acc=0.707  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1898  acc=0.787
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  22%|██▏       | 20/90 [08:45<23:29, 20.14s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6869  train_acc=0.506  val_loss=0.3344  val_acc=0.683  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1893  acc=0.717
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  23%|██▎       | 21/90 [09:03<22:24, 19.48s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6897  train_acc=0.500  val_loss=0.3360  val_acc=0.826  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1822  acc=0.945
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  24%|██▍       | 22/90 [09:21<21:34, 19.04s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6883  train_acc=0.523  val_loss=0.3338  val_acc=0.661  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.1806  acc=0.915
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  26%|██▌       | 23/90 [09:41<21:43, 19.46s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6875  train_acc=0.503  val_loss=0.3340  val_acc=0.757  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1875  acc=0.817
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  27%|██▋       | 24/90 [09:59<20:56, 19.04s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6858  train_acc=0.532  val_loss=0.3346  val_acc=0.855  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1785  acc=0.999
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  28%|██▊       | 25/90 [10:17<20:18, 18.75s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6871  train_acc=0.522  val_loss=0.3346  val_acc=0.860  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1799  acc=1.000
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  29%|██▉       | 26/90 [10:35<19:46, 18.54s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6869  train_acc=0.523  val_loss=0.3317  val_acc=0.752  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1864  acc=0.864
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  30%|███       | 27/90 [10:53<19:17, 18.37s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6897  train_acc=0.514  val_loss=0.3345  val_acc=0.772  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=0.1716  acc=0.965
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  31%|███       | 28/90 [11:18<21:02, 20.37s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6902  train_acc=0.494  val_loss=0.3346  val_acc=0.744  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.1775  acc=0.998
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  32%|███▏      | 29/90 [11:38<20:38, 20.30s/run]Planning 1 experiments.
+
+[1/1] erp/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6931  train_acc=0.491  val_loss=0.3346  val_acc=0.594  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1903  acc=0.665
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  33%|███▎      | 30/90 [11:56<19:35, 19.59s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6878  train_acc=0.482  val_loss=0.6804  val_acc=0.451  lr=6.00e-05  (2.9s)
+      Epoch   8/8  train_loss=0.6776  train_acc=0.497  val_loss=0.7121  val_acc=0.430  lr=2.70e-04  (2.2s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6360  acc=0.683
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  34%|███▍      | 31/90 [12:24<21:44, 22.11s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6887  train_acc=0.498  val_loss=0.6793  val_acc=0.505  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.6388  acc=0.633
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  36%|███▌      | 32/90 [12:45<20:52, 21.60s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6874  train_acc=0.510  val_loss=0.6796  val_acc=0.473  lr=6.00e-05  (2.8s)
+      Epoch   8/8  train_loss=0.6783  train_acc=0.510  val_loss=0.6956  val_acc=0.430  lr=2.70e-04  (2.2s)
+      Test (Study 1):  loss=0.6162  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  37%|███▋      | 33/90 [13:12<22:04, 23.23s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6906  train_acc=0.505  val_loss=0.6800  val_acc=0.466  lr=6.00e-05  (2.9s)
+      Epoch   8/8  train_loss=0.6819  train_acc=0.500  val_loss=0.7014  val_acc=0.430  lr=2.70e-04  (2.2s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6270  acc=0.730
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  38%|███▊      | 34/90 [13:40<23:00, 24.65s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6904  train_acc=0.489  val_loss=0.6811  val_acc=0.514  lr=6.00e-05  (2.6s)
+      Epoch   8/8  train_loss=0.6787  train_acc=0.516  val_loss=0.6971  val_acc=0.430  lr=2.70e-04  (2.2s)
+      Test (Study 1):  loss=0.6295  acc=0.686
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  39%|███▉      | 35/90 [14:06<22:59, 25.08s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6881  train_acc=0.495  val_loss=0.6809  val_acc=0.557  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.6285  acc=0.722
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  40%|████      | 36/90 [14:24<20:40, 22.97s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6871  train_acc=0.506  val_loss=0.6799  val_acc=0.463  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.6509  acc=0.386
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  41%|████      | 37/90 [14:42<18:59, 21.50s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6873  train_acc=0.493  val_loss=0.6801  val_acc=0.454  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.6416  acc=0.571
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  42%|████▏     | 38/90 [15:03<18:23, 21.22s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6874  train_acc=0.509  val_loss=0.6795  val_acc=0.489  lr=6.00e-05  (2.7s)
+      Epoch   8/8  train_loss=0.6791  train_acc=0.509  val_loss=0.6939  val_acc=0.430  lr=2.70e-04  (2.2s)
+      Test (Study 1):  loss=0.6230  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  43%|████▎     | 39/90 [15:30<19:31, 22.97s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6876  train_acc=0.512  val_loss=0.6809  val_acc=0.565  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=0.6280  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  44%|████▍     | 40/90 [15:52<18:58, 22.77s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6892  train_acc=0.487  val_loss=0.6797  val_acc=0.461  lr=6.00e-05  (2.9s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.6301  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  46%|████▌     | 41/90 [16:12<18:00, 22.06s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6872  train_acc=0.500  val_loss=0.6793  val_acc=0.453  lr=6.00e-05  (2.8s)
+      Epoch   8/8  train_loss=0.6629  train_acc=0.572  val_loss=0.7798  val_acc=0.455  lr=2.70e-04  (2.3s)
+      Test (Study 1):  loss=0.6595  acc=0.537
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  47%|████▋     | 42/90 [16:39<18:45, 23.46s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6888  train_acc=0.497  val_loss=0.6794  val_acc=0.477  lr=6.00e-05  (2.8s)
+      Epoch   8/8  train_loss=0.6783  train_acc=0.516  val_loss=0.7059  val_acc=0.430  lr=2.70e-04  (2.2s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6286  acc=0.751
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  48%|████▊     | 43/90 [17:06<19:16, 24.60s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6880  train_acc=0.497  val_loss=0.6803  val_acc=0.462  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.6347  acc=0.687
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  49%|████▉     | 44/90 [17:26<17:39, 23.03s/run]Planning 1 experiments.
+
+[1/1] erp/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6921  train_acc=0.496  val_loss=0.6800  val_acc=0.538  lr=6.00e-05  (2.8s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=0.6296  acc=0.740
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  50%|█████     | 45/90 [17:51<17:44, 23.66s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4044  train_acc=0.098  val_loss=1.8172  val_acc=0.108  lr=6.00e-05  (4.6s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1568  acc=0.089
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  51%|█████     | 46/90 [18:25<19:46, 26.96s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4012  train_acc=0.087  val_loss=1.8173  val_acc=0.107  lr=6.00e-05  (4.4s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1488  acc=0.120
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  52%|█████▏    | 47/90 [19:03<21:33, 30.07s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4000  train_acc=0.099  val_loss=1.8167  val_acc=0.068  lr=6.00e-05  (4.3s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=2.1420  acc=0.142
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  53%|█████▎    | 48/90 [19:43<23:07, 33.03s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4017  train_acc=0.089  val_loss=1.8167  val_acc=0.065  lr=6.00e-05  (4.3s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=2.1734  acc=0.021
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  54%|█████▍    | 49/90 [20:20<23:20, 34.17s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4032  train_acc=0.092  val_loss=1.8172  val_acc=0.090  lr=6.00e-05  (4.3s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1508  acc=0.095
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  56%|█████▌    | 50/90 [20:53<22:34, 33.86s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.3988  train_acc=0.094  val_loss=1.8176  val_acc=0.125  lr=6.00e-05  (4.3s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=2.1584  acc=0.111
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  57%|█████▋    | 51/90 [21:34<23:24, 36.01s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4056  train_acc=0.099  val_loss=1.8179  val_acc=0.092  lr=6.00e-05  (4.5s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=2.1507  acc=0.102
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  58%|█████▊    | 52/90 [22:11<23:06, 36.49s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4040  train_acc=0.086  val_loss=1.8165  val_acc=0.077  lr=6.00e-05  (4.3s)
+      Epoch   8/8  train_loss=2.3263  train_acc=0.091  val_loss=1.8920  val_acc=0.052  lr=2.70e-04  (3.5s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1454  acc=0.109
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  59%|█████▉    | 53/90 [22:56<24:01, 38.96s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.3985  train_acc=0.095  val_loss=1.8172  val_acc=0.075  lr=6.00e-05  (4.5s)
+      Epoch   8/8  train_loss=2.2983  train_acc=0.081  val_loss=1.8997  val_acc=0.052  lr=2.70e-04  (3.3s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1405  acc=0.106
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  60%|██████    | 54/90 [23:42<24:32, 40.91s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4022  train_acc=0.084  val_loss=1.8154  val_acc=0.157  lr=6.00e-05  (4.6s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1528  acc=0.110
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  61%|██████    | 55/90 [24:16<22:39, 38.85s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4019  train_acc=0.089  val_loss=1.8153  val_acc=0.159  lr=6.00e-05  (4.4s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=2.1486  acc=0.117
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  62%|██████▏   | 56/90 [24:49<21:06, 37.26s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.3988  train_acc=0.093  val_loss=1.8156  val_acc=0.052  lr=6.00e-05  (4.3s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=2.1507  acc=0.000
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  63%|██████▎   | 57/90 [25:19<19:11, 34.91s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4012  train_acc=0.084  val_loss=1.8163  val_acc=0.120  lr=6.00e-05  (4.5s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=2.1400  acc=0.105
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  64%|██████▍   | 58/90 [25:58<19:25, 36.43s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4012  train_acc=0.092  val_loss=1.8168  val_acc=0.052  lr=6.00e-05  (4.4s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=2.1565  acc=0.082
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  66%|██████▌   | 59/90 [26:38<19:21, 37.46s/run]Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=2882  val=2985  test=1249  classes=11
+      Epoch   1/8  train_loss=2.4035  train_acc=0.084  val_loss=1.8176  val_acc=0.050  lr=6.00e-05  (4.2s)
+      Epoch   8/8  train_loss=2.3087  train_acc=0.086  val_loss=1.8948  val_acc=0.052  lr=2.70e-04  (3.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=2.1702  acc=0.117
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  67%|██████▋   | 60/90 [27:23<19:44, 39.48s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6892  train_acc=0.500  val_loss=0.3351  val_acc=0.595  lr=6.00e-05  (3.4s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1930  acc=0.623
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  68%|██████▊   | 61/90 [27:48<17:05, 35.36s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6879  train_acc=0.522  val_loss=0.3354  val_acc=0.656  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1905  acc=0.703
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  69%|██████▉   | 62/90 [28:14<15:08, 32.46s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6874  train_acc=0.510  val_loss=0.3341  val_acc=0.694  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.4099  train_acc=0.491  val_loss=0.5058  val_acc=0.140  lr=2.70e-04  (2.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.1716  acc=1.000
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  70%|███████   | 63/90 [28:51<15:13, 33.82s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6885  train_acc=0.508  val_loss=0.3349  val_acc=0.546  lr=6.00e-05  (3.2s)
+      Epoch   8/8  train_loss=0.4082  train_acc=0.500  val_loss=0.5561  val_acc=0.140  lr=2.70e-04  (2.5s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.1694  acc=1.000
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  71%|███████   | 64/90 [29:27<14:59, 34.60s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6898  train_acc=0.485  val_loss=0.3347  val_acc=0.279  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.1865  acc=0.911
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  72%|███████▏  | 65/90 [29:56<13:38, 32.74s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6886  train_acc=0.503  val_loss=0.3347  val_acc=0.808  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.4045  train_acc=0.520  val_loss=0.5593  val_acc=0.140  lr=2.70e-04  (2.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.1756  acc=0.999
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  73%|███████▎  | 66/90 [30:33<13:34, 33.94s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6903  train_acc=0.505  val_loss=0.3355  val_acc=0.752  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1868  acc=0.841
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  74%|███████▍  | 67/90 [30:58<12:04, 31.51s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6903  train_acc=0.502  val_loss=0.3354  val_acc=0.760  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1857  acc=0.881
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  76%|███████▌  | 68/90 [31:24<10:56, 29.82s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6882  train_acc=0.495  val_loss=0.3345  val_acc=0.666  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.4107  train_acc=0.491  val_loss=0.5116  val_acc=0.140  lr=2.70e-04  (2.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.1773  acc=0.995
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  77%|███████▋  | 69/90 [32:01<11:08, 31.83s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6876  train_acc=0.517  val_loss=0.3346  val_acc=0.860  lr=6.00e-05  (3.5s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1880  acc=0.998
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  78%|███████▊  | 70/90 [32:28<10:09, 30.48s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6886  train_acc=0.500  val_loss=0.3350  val_acc=0.860  lr=6.00e-05  (3.7s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1846  acc=1.000
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  79%|███████▉  | 71/90 [32:56<09:22, 29.59s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6882  train_acc=0.486  val_loss=0.3346  val_acc=0.448  lr=6.00e-05  (3.5s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1925  acc=0.794
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  80%|████████  | 72/90 [33:23<08:40, 28.91s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6897  train_acc=0.495  val_loss=0.3351  val_acc=0.625  lr=6.00e-05  (3.2s)
+      Epoch   8/8  train_loss=0.4118  train_acc=0.496  val_loss=0.5185  val_acc=0.140  lr=2.70e-04  (2.7s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.1772  acc=1.000
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  81%|████████  | 73/90 [34:00<08:51, 31.28s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6893  train_acc=0.498  val_loss=0.3351  val_acc=0.838  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.1833  acc=0.962
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  82%|████████▏ | 74/90 [34:27<08:02, 30.14s/run]Planning 1 experiments.
+
+[1/1] dda/manner/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6887  train_acc=0.502  val_loss=0.3349  val_acc=0.539  lr=6.00e-05  (3.2s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.1764  acc=0.995
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  83%|████████▎ | 75/90 [34:56<07:23, 29.59s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6894  train_acc=0.507  val_loss=0.6802  val_acc=0.517  lr=6.00e-05  (3.4s)
+      Epoch   8/8  train_loss=0.6800  train_acc=0.489  val_loss=0.6973  val_acc=0.430  lr=2.70e-04  (2.5s)
+      Test (Study 1):  loss=0.6263  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  84%|████████▍ | 76/90 [35:33<07:26, 31.88s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6893  train_acc=0.509  val_loss=0.6804  val_acc=0.475  lr=6.00e-05  (3.4s)
+      Epoch   8/8  train_loss=0.6788  train_acc=0.518  val_loss=0.7012  val_acc=0.430  lr=2.70e-04  (2.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6168  acc=0.751
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  86%|████████▌ | 77/90 [36:09<07:11, 33.23s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6879  train_acc=0.507  val_loss=0.6798  val_acc=0.481  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.6806  train_acc=0.493  val_loss=0.6933  val_acc=0.430  lr=2.70e-04  (2.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6257  acc=0.751
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  87%|████████▋ | 78/90 [36:46<06:51, 34.26s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6897  train_acc=0.475  val_loss=0.6796  val_acc=0.471  lr=6.00e-05  (3.2s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=0.6358  acc=0.671
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  88%|████████▊ | 79/90 [37:17<06:06, 33.35s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6877  train_acc=0.499  val_loss=0.6817  val_acc=0.568  lr=6.00e-05  (3.2s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.6224  acc=0.752
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  89%|████████▉ | 80/90 [37:43<05:10, 31.04s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6894  train_acc=0.495  val_loss=0.6805  val_acc=0.454  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 6
+      Test (Study 1):  loss=0.6465  acc=0.446
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  90%|█████████ | 81/90 [38:14<04:39, 31.03s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6891  train_acc=0.500  val_loss=0.6800  val_acc=0.520  lr=6.00e-05  (3.3s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=0.6171  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  91%|█████████ | 82/90 [38:48<04:15, 31.97s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6910  train_acc=0.500  val_loss=0.6805  val_acc=0.480  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.6778  train_acc=0.518  val_loss=0.7141  val_acc=0.430  lr=2.70e-04  (2.5s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6238  acc=0.752
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  92%|█████████▏| 83/90 [39:24<03:52, 33.24s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6873  train_acc=0.508  val_loss=0.6804  val_acc=0.457  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.6810  train_acc=0.485  val_loss=0.6883  val_acc=0.430  lr=2.70e-04  (2.6s)
+      Early stopping at epoch 8
+      Test (Study 1):  loss=0.6232  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  93%|█████████▎| 84/90 [40:01<03:26, 34.34s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6894  train_acc=0.502  val_loss=0.6799  val_acc=0.570  lr=6.00e-05  (3.4s)
+      Early stopping at epoch 4
+      Test (Study 1):  loss=0.6339  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  94%|█████████▍| 85/90 [40:28<02:40, 32.11s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6894  train_acc=0.495  val_loss=0.6795  val_acc=0.428  lr=6.00e-05  (3.4s)
+      Early stopping at epoch 7
+      Test (Study 1):  loss=0.6450  acc=0.381
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  96%|█████████▌| 86/90 [41:04<02:13, 33.46s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6883  train_acc=0.512  val_loss=0.6801  val_acc=0.430  lr=6.00e-05  (3.7s)
+      Early stopping at epoch 5
+      Test (Study 1):  loss=0.6382  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  97%|█████████▋| 87/90 [41:35<01:37, 32.65s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6884  train_acc=0.499  val_loss=0.6809  val_acc=0.436  lr=6.00e-05  (3.2s)
+      Epoch   8/8  train_loss=0.6808  train_acc=0.496  val_loss=0.6892  val_acc=0.430  lr=2.70e-04  (2.3s)
+      Test (Study 1):  loss=0.6382  acc=0.699
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  98%|█████████▊| 88/90 [42:11<01:07, 33.60s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6911  train_acc=0.500  val_loss=0.6795  val_acc=0.496  lr=6.00e-05  (3.2s)
+      Epoch   8/8  train_loss=0.6807  train_acc=0.484  val_loss=0.6953  val_acc=0.430  lr=2.70e-04  (2.4s)
+      Test (Study 1):  loss=0.6186  acc=0.753
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8):  99%|█████████▉| 89/90 [42:47<00:34, 34.25s/run]Planning 1 experiments.
+
+[1/1] dda/place/null  (GPU 0)  [MT=False, CTC=False]
+     train=2132  val=2210  test=1249  classes=2
+      Epoch   1/8  train_loss=0.6920  train_acc=0.488  val_loss=0.6799  val_acc=0.474  lr=6.00e-05  (3.3s)
+      Epoch   8/8  train_loss=0.6777  train_acc=0.508  val_loss=0.7061  val_acc=0.430  lr=2.70e-04  (2.6s)
+      Test (Study 1):  loss=0.6402  acc=0.622
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+CIPHER ablations (8-8): 100%|██████████| 90/90 [43:23<00:00, 34.86s/run]CIPHER ablations (8-8): 100%|██████████| 90/90 [43:23<00:00, 28.93s/run]
+Saved /home/lalith/zetta/results/tables/cipher_ablation_split8_extended_multiseed_raw.csv
+Saved /home/lalith/zetta/results/tables/cipher_ablation_split8_extended_multiseed_summary.csv

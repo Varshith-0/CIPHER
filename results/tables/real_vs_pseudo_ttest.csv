@@ -1,0 +1,3 @@
+feature_type,n_subjects,mean_real_acc,mean_pseudo_acc,t_stat,p_value,significant_p05
+erp,16,0.1901,0.2328,-1.7826,0.094896,False
+dda,16,0.0786,0.0753,0.1866,0.85445,False

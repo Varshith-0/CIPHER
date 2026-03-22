@@ -1,0 +1,60 @@
+Starting WER sweep with 6 candidates
+
+[1/6] Candidate: base_s17
+Args: --seed 17 --monitor-metric val_acc --monitor-mode max --lr 3e-4 --dropout 0.3 --batch-size 64 --max-epochs 140 --patience 28
+Planning 1 experiments.
+
+[1/1] erp/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=4727  val=1140  test=1249  classes=11
+      Epoch   1/140  train_loss=2.3022  train_acc=0.092  val_loss=1.9068  val_acc=0.058  (4.2s)
+      Epoch  10/140  train_loss=1.9581  train_acc=0.221  val_loss=1.7894  val_acc=0.175  (3.8s)
+      Epoch  20/140  train_loss=1.3834  train_acc=0.388  val_loss=2.3172  val_acc=0.175  (3.7s)
+      Epoch  30/140  train_loss=0.9798  train_acc=0.527  val_loss=2.8675  val_acc=0.175  (3.6s)
+      Epoch  40/140  train_loss=0.7862  train_acc=0.586  val_loss=3.1076  val_acc=0.177  (3.4s)
+      Epoch  50/140  train_loss=0.7336  train_acc=0.608  val_loss=3.2043  val_acc=0.173  (3.7s)
+      Early stopping at epoch 57
+      Test (Study 1):  loss=6.0276  acc=0.095
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=False, CTC=False]
+     train=4727  val=1140  test=1249  classes=11
+      Epoch   1/140  train_loss=2.3338  train_acc=0.097  val_loss=1.9447  val_acc=0.053  (14.3s)
+      Epoch  10/140  train_loss=2.2942  train_acc=0.100  val_loss=1.9185  val_acc=0.053  (13.6s)
+      Epoch  20/140  train_loss=2.2954  train_acc=0.088  val_loss=1.9243  val_acc=0.053  (13.6s)
+      Epoch  30/140  train_loss=2.2893  train_acc=0.090  val_loss=1.9125  val_acc=0.053  (13.6s)
+      Epoch  40/140  train_loss=2.2910  train_acc=0.090  val_loss=1.9153  val_acc=0.053  (13.6s)
+      Epoch  50/140  train_loss=2.2959  train_acc=0.093  val_loss=1.9145  val_acc=0.053  (13.5s)
+      Early stopping at epoch 51
+      Test (Study 1):  loss=2.1204  acc=0.110
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+============================================================
+STEP 1b: Word error rate (triphones)
+============================================================
+
+
+Summary report saved to: /home/lalith/zetta/results/summary_report.txt
+======================================================================
+ZETTA — Evaluation Summary Report
+Generated: 2026-03-17 19:40:26
+======================================================================
+
+WORD ERROR RATE (TRIPHONES)
+----------------------------------------
+  erp/cvc_real_words/study2_val: WER=0.717 (n=120)
+  erp/cvc_pseudowords/study2_val: WER=0.700 (n=120)
+  dda/cvc_real_words/study2_val: WER=1.000 (n=120)
+  dda/cvc_pseudowords/study2_val: WER=1.000 (n=120)
+
+======================================================================
+Pipeline: preprocess.py → train_all.py → evaluate_all.py
+======================================================================
+
+All results saved to: /home/lalith/zetta/results
+Done.

@@ -1,0 +1,4 @@
+tag,dda_avg_wer
+dda_mtctc_s61,0.82085
+dda_mtctc_s73,0.8625
+dda_mtctc_s89,0.8083

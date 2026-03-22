@@ -1,0 +1,17 @@
+Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=True, CTC=True]
+     train=4727  val=1140  test=1249  classes=11
+      Epoch   1/180  train_loss=7.0626  train_acc=0.094  val_loss=1.9335  val_acc=0.053  (7.7s)
+      Epoch  10/180  train_loss=2.6348  train_acc=0.083  val_loss=1.9229  val_acc=0.052  (6.0s)
+      Epoch  20/180  train_loss=2.5052  train_acc=0.133  val_loss=1.8242  val_acc=0.132  (6.8s)
+      Epoch  30/180  train_loss=2.2046  train_acc=0.208  val_loss=2.1870  val_acc=0.126  (7.3s)
+      Epoch  40/180  train_loss=1.9617  train_acc=0.263  val_loss=2.3554  val_acc=0.096  (7.3s)
+      Epoch  50/180  train_loss=1.8434  train_acc=0.299  val_loss=2.4894  val_acc=0.110  (7.3s)
+      Epoch  60/180  train_loss=1.8255  train_acc=0.299  val_loss=2.5574  val_acc=0.113  (7.1s)
+      Early stopping at epoch 65
+      Test (Study 1):  loss=4.5471  acc=0.092
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out

@@ -1,0 +1,5 @@
+feature_type,place_of_articulation,f_stat,p_value,n_groups,significant_p05
+erp,bilabial,0.7908,0.529856,3,False
+erp,alveolar,3.4584,0.114032,3,False
+dda,bilabial,7.4961,0.068085,3,False
+dda,alveolar,0.5159,0.625628,3,False

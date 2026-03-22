@@ -1,0 +1,17 @@
+feature_type,task,modality,top1_acc,f1_macro,n_samples
+erp,phoneme_identity,perceived,0.1182,0.0694,660
+erp,phoneme_identity,merged,0.1409,0.1184,660
+erp,place,perceived,0.6639,0.4068,360
+erp,place,merged,0.6389,0.5112,360
+erp,manner,perceived,0.6667,0.5303,360
+erp,manner,merged,0.6667,0.4,360
+erp,category,perceived,0.5985,0.5864,660
+erp,category,merged,0.6182,0.6047,660
+dda,phoneme_identity,perceived,0.0985,0.0431,660
+dda,phoneme_identity,merged,0.0848,0.0515,660
+dda,place,perceived,0.6667,0.4,360
+dda,place,merged,0.6639,0.488,360
+dda,manner,perceived,0.6667,0.4,360
+dda,manner,merged,0.5944,0.4708,360
+dda,category,perceived,0.5424,0.3517,660
+dda,category,merged,0.5424,0.3517,660

@@ -1,0 +1,63 @@
+feature_type,task,tms_condition,split,top1_acc,top3_acc,f1_macro,f1_per_class,n_samples
+erp,phoneme_identity,null,study2_val,0.1439,0.4246,0.0878,"{'a': 0.0, 'b': 0.0, 'd': 0.2389, 'e': 0.0816, 'i': 0.0, 'o': 0.0, 'p': 0.0, 's': 0.1573, 't': 0.2403, 'u': 0.1026, 'z': 0.1455}",1140
+erp,phoneme_identity,null,study1_test,0.1089,0.3355,0.0489,"{'a': 0.0, 'b': 0.0, 'd': 0.1456, 'e': 0.0781, 'i': 0.0, 'o': 0.0, 'p': 0.0, 's': 0.0, 't': 0.2067, 'u': 0.1077, 'z': 0.0}",1249
+erp,phoneme_identity,lip,study2_val,0.25,0.75,0.1,"{'a': 0.0, 'b': 0.0, 'd': 0.0, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.4, 's': 0.0, 't': 0.0, 'u': 0.0, 'z': 0.0}",240
+erp,phoneme_identity,lip,study1_test,0.1253,0.3775,0.0261,"{'a': 0.0, 'b': 0.0, 'd': 0.0126, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.2219, 's': 0.0, 't': 0.0, 'u': 0.0, 'z': 0.0}",1237
+erp,phoneme_identity,tongue,study2_val,0.3042,0.7708,0.2465,"{'a': 0.0, 'b': 0.0615, 'd': 0.3089, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.1667, 's': 0.0, 't': 0.449, 'u': 0.0, 'z': 0.0}",240
+erp,phoneme_identity,tongue,study1_test,0.1369,0.3877,0.0787,"{'a': 0.0, 'b': 0.135, 'd': 0.2047, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.1553, 's': 0.0, 't': 0.2134, 'u': 0.0, 'z': 0.0}",1256
+erp,place,null,study2_val,0.5762,0.5762,0.5444,"{'alveolar': 0.6648, 'bilabial': 0.4239}",840
+erp,place,null,study1_test,0.5308,0.5308,0.4781,"{'alveolar': 0.644, 'bilabial': 0.3122}",1249
+erp,place,lip,study2_val,0.5333,0.5333,0.5301,"{'alveolar': 0.4909, 'bilabial': 0.5692}",240
+erp,place,lip,study1_test,0.4301,0.4301,0.4211,"{'alveolar': 0.4932, 'bilabial': 0.349}",1237
+erp,place,tongue,study2_val,0.5167,0.5167,0.42,"{'alveolar': 0.1831, 'bilabial': 0.6568}",240
+erp,place,tongue,study1_test,0.5446,0.5446,0.486,"{'alveolar': 0.6595, 'bilabial': 0.3125}",1256
+erp,manner,null,study2_val,0.8524,0.8524,0.5619,"{'fricative': 0.2051, 'stop': 0.9186}",840
+erp,manner,null,study1_test,0.9848,0.9848,0.4962,"{'fricative': 0.0, 'stop': 0.9923}",1249
+erp,manner,lip,study2_val,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",240
+erp,manner,lip,study1_test,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",1237
+erp,manner,tongue,study2_val,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",240
+erp,manner,tongue,study1_test,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",1256
+erp,voicing,null,study2_val,0.5417,0.5417,0.5344,"{'unvoiced': 0.4762, 'voiced': 0.5926}",240
+erp,category,null,study2_val,0.7237,0.7237,0.5557,"{'consonant': 0.8289, 'vowel': 0.2825}",1140
+erp,category,null,study1_test,0.4796,0.4796,0.3788,"{'consonant': 0.629, 'vowel': 0.1287}",1249
+erp,category,lip,study2_val,1.0,1.0,1.0,"{'consonant': 1.0, 'vowel': 0.0}",240
+erp,category,lip,study1_test,0.5101,0.5101,0.3378,"{'consonant': 0.6756, 'vowel': 0.0}",1237
+erp,category,tongue,study2_val,1.0,1.0,1.0,"{'consonant': 1.0, 'vowel': 0.0}",240
+erp,category,tongue,study1_test,0.5024,0.5024,0.3344,"{'consonant': 0.6688, 'vowel': 0.0}",1256
+erp,complexity,null,study2_val,0.6711,1.0,0.5445,"{'diphone': 0.4115, 'single_phoneme': 0.8051, 'triphone': 0.4171}",1140
+erp,complexity,null,study1_test,0.2306,1.0,0.1249,"{'diphone': 0.3748, 'single_phoneme': 0.0, 'triphone': 0.0}",1249
+erp,complexity,lip,study2_val,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",240
+erp,complexity,lip,study1_test,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",1237
+erp,complexity,tongue,study2_val,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",240
+erp,complexity,tongue,study1_test,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",1256
+dda,phoneme_identity,null,study2_val,0.1675,0.4693,0.037,"{'a': 0.0, 'b': 0.2945, 'd': 0.0, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.011, 's': 0.0597, 't': 0.0101, 'u': 0.0, 'z': 0.0312}",1140
+dda,phoneme_identity,null,study1_test,0.1177,0.3883,0.0201,"{'a': 0.0, 'b': 0.2104, 'd': 0.0, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.0, 's': 0.0, 't': 0.0111, 'u': 0.0, 'z': 0.0}",1249
+dda,phoneme_identity,lip,study2_val,0.3083,0.75,0.2917,"{'a': 0.0, 'b': 0.1205, 'd': 0.3432, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.3929, 's': 0.0, 't': 0.3103, 'u': 0.0, 'z': 0.0}",240
+dda,phoneme_identity,lip,study1_test,0.1245,0.3791,0.0675,"{'a': 0.0, 'b': 0.0889, 'd': 0.1866, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.1445, 's': 0.0, 't': 0.1874, 'u': 0.0, 'z': 0.0}",1237
+dda,phoneme_identity,tongue,study2_val,0.2333,0.7375,0.1843,"{'a': 0.0, 'b': 0.1864, 'd': 0.2041, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.3465, 's': 0.0, 't': 0.0, 'u': 0.0, 'z': 0.0}",240
+dda,phoneme_identity,tongue,study1_test,0.1266,0.3766,0.0532,"{'a': 0.0, 'b': 0.1801, 'd': 0.0844, 'e': 0.0, 'i': 0.0, 'o': 0.0, 'p': 0.2142, 's': 0.0, 't': 0.0, 'u': 0.0, 'z': 0.0}",1256
+dda,place,null,study2_val,0.5476,0.5476,0.4402,"{'alveolar': 0.6854, 'bilabial': 0.1949}",840
+dda,place,null,study1_test,0.7246,0.7246,0.4685,"{'alveolar': 0.8374, 'bilabial': 0.0995}",1249
+dda,place,lip,study2_val,0.6083,0.6083,0.5906,"{'alveolar': 0.6759, 'bilabial': 0.5053}",240
+dda,place,lip,study1_test,0.6427,0.6427,0.507,"{'alveolar': 0.7656, 'bilabial': 0.2483}",1237
+dda,place,tongue,study2_val,0.5125,0.5125,0.3971,"{'alveolar': 0.6609, 'bilabial': 0.1333}",240
+dda,place,tongue,study1_test,0.699,0.699,0.4697,"{'alveolar': 0.8184, 'bilabial': 0.1209}",1256
+dda,manner,null,study2_val,0.8583,0.8583,0.4701,"{'fricative': 0.0165, 'stop': 0.9237}",840
+dda,manner,null,study1_test,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",1249
+dda,manner,lip,study2_val,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",240
+dda,manner,lip,study1_test,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",1237
+dda,manner,tongue,study2_val,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",240
+dda,manner,tongue,study1_test,1.0,1.0,1.0,"{'fricative': 0.0, 'stop': 1.0}",1256
+dda,voicing,null,study2_val,0.5083,0.5083,0.4994,"{'unvoiced': 0.4327, 'voiced': 0.5662}",240
+dda,category,null,study2_val,0.7237,0.7237,0.5118,"{'consonant': 0.8334, 'vowel': 0.1902}",1140
+dda,category,null,study1_test,0.4812,0.4812,0.3249,"{'consonant': 0.6497, 'vowel': 0.0}",1249
+dda,category,lip,study2_val,1.0,1.0,1.0,"{'consonant': 1.0, 'vowel': 0.0}",240
+dda,category,lip,study1_test,0.5101,0.5101,0.3378,"{'consonant': 0.6756, 'vowel': 0.0}",1237
+dda,category,tongue,study2_val,1.0,1.0,1.0,"{'consonant': 1.0, 'vowel': 0.0}",240
+dda,category,tongue,study1_test,0.5024,0.5024,0.3344,"{'consonant': 0.6688, 'vowel': 0.0}",1256
+dda,complexity,null,study2_val,0.7596,1.0,0.6496,"{'diphone': 0.519, 'single_phoneme': 0.9101, 'triphone': 0.5197}",1140
+dda,complexity,null,study1_test,0.0504,1.0,0.032,"{'diphone': 0.096, 'single_phoneme': 0.0, 'triphone': 0.0}",1249
+dda,complexity,lip,study2_val,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",240
+dda,complexity,lip,study1_test,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",1237
+dda,complexity,tongue,study2_val,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",240
+dda,complexity,tongue,study1_test,1.0,1.0,1.0,"{'diphone': 1.0, 'single_phoneme': 0.0, 'triphone': 0.0}",1256

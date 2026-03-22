@@ -1,0 +1,16 @@
+ablation,seed,return_code,best_val_acc,save_suffix
+full,17,0,0.1698,ablate_full_seed17
+full,31,0,0.1628,ablate_full_seed31
+full,53,0,0.1698,ablate_full_seed53
+no_se,17,0,0.1698,ablate_no_se_seed17
+no_se,31,0,0.1625,ablate_no_se_seed31
+no_se,53,0,0.1698,ablate_no_se_seed53
+no_stochastic_depth,17,0,0.1695,ablate_no_stochastic_depth_seed17
+no_stochastic_depth,31,0,0.1698,ablate_no_stochastic_depth_seed31
+no_stochastic_depth,53,0,0.1591,ablate_no_stochastic_depth_seed53
+no_attention_pool,17,0,0.1725,ablate_no_attention_pool_seed17
+no_attention_pool,31,0,0.1698,ablate_no_attention_pool_seed31
+no_attention_pool,53,0,0.1618,ablate_no_attention_pool_seed53
+no_multiscale,17,0,0.1698,ablate_no_multiscale_seed17
+no_multiscale,31,0,0.1698,ablate_no_multiscale_seed31
+no_multiscale,53,0,0.1698,ablate_no_multiscale_seed53

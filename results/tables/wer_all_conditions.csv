@@ -1,0 +1,5 @@
+feature_type,word_type,split,wer,n_samples
+erp,cvc_real_words,study2_val,0.7667,120
+erp,cvc_pseudowords,study2_val,0.8167,120
+dda,cvc_real_words,study2_val,0.6,120
+dda,cvc_pseudowords,study2_val,0.8,120

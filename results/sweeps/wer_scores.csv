@@ -1,0 +1,14 @@
+base_nocTC,0.70835
+low_lr,0.85
+wd_low,0.7292000000000001
+ctc_bal,0.75
+triphone_only,0.75415
+triphone_ctc,0.74585
+base_s11,0.7542
+base_s17,0.70835
+base_s29,0.7375
+wd_s31,0.675
+ctc_s37,0.7333000000000001
+triphone_s41,0.74585
+triphone_ctc_s43,0.7375
+base_s53,0.6875

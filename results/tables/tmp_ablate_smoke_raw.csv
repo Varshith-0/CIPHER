@@ -1,0 +1,16 @@
+feature_type,task,ablation,seed,return_code,best_val_acc,save_suffix
+erp,phoneme_identity,full,17,0,0.0529,ablate_erp_phoneme_identity_full_seed17
+erp,phoneme_identity,full,31,0,0.0529,ablate_erp_phoneme_identity_full_seed31
+erp,phoneme_identity,full,53,0,0.0489,ablate_erp_phoneme_identity_full_seed53
+erp,phoneme_identity,no_se,17,0,0.0486,ablate_erp_phoneme_identity_no_se_seed17
+erp,phoneme_identity,no_se,31,0,0.0529,ablate_erp_phoneme_identity_no_se_seed31
+erp,phoneme_identity,no_se,53,0,0.0526,ablate_erp_phoneme_identity_no_se_seed53
+erp,phoneme_identity,no_stochastic_depth,17,0,0.0543,ablate_erp_phoneme_identity_no_stochastic_depth_seed17
+erp,phoneme_identity,no_stochastic_depth,31,0,0.0526,ablate_erp_phoneme_identity_no_stochastic_depth_seed31
+erp,phoneme_identity,no_stochastic_depth,53,0,0.0479,ablate_erp_phoneme_identity_no_stochastic_depth_seed53
+erp,phoneme_identity,no_attention_pool,17,0,0.0519,ablate_erp_phoneme_identity_no_attention_pool_seed17
+erp,phoneme_identity,no_attention_pool,31,0,0.0519,ablate_erp_phoneme_identity_no_attention_pool_seed31
+erp,phoneme_identity,no_attention_pool,53,0,0.0476,ablate_erp_phoneme_identity_no_attention_pool_seed53
+erp,phoneme_identity,no_multiscale,17,0,0.0533,ablate_erp_phoneme_identity_no_multiscale_seed17
+erp,phoneme_identity,no_multiscale,31,0,0.0456,ablate_erp_phoneme_identity_no_multiscale_seed31
+erp,phoneme_identity,no_multiscale,53,0,0.0513,ablate_erp_phoneme_identity_no_multiscale_seed53

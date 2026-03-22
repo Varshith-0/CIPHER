@@ -1,0 +1,6 @@
+feature_type,task,ablation,n_runs,val_acc_mean,val_acc_std,n_fail
+erp,phoneme_identity,no_stochastic_depth,3,0.0516,0.0033151168908501553,0
+erp,phoneme_identity,full,3,0.05156666666666667,0.0023094010767585062,0
+erp,phoneme_identity,no_se,3,0.05136666666666667,0.0024006943440041113,0
+erp,phoneme_identity,no_attention_pool,3,0.05046666666666667,0.002482606157515389,0
+erp,phoneme_identity,no_multiscale,3,0.05006666666666667,0.003995414037785487,0

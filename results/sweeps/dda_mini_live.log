@@ -1,0 +1,164 @@
+Starting DDA mini-sweep with 3 candidates
+
+[1/3] Candidate: dda_mtctc_s61
+Args: --seed 61 --monitor-metric val_acc --monitor-mode max --enable-multitask --augment-train --enable-ctc --ctc-weight 0.10 --lr 1.5e-4 --weight-decay 5e-5 --dropout 0.22 --batch-size 64 --max-epochs 180 --patience 36
+Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=True, CTC=True]
+     train=4727  val=1140  test=1249  classes=11
+      Epoch   1/180  train_loss=7.0626  train_acc=0.094  val_loss=1.9335  val_acc=0.053  (7.7s)
+      Epoch  10/180  train_loss=2.6348  train_acc=0.083  val_loss=1.9229  val_acc=0.052  (7.3s)
+      Epoch  20/180  train_loss=2.5052  train_acc=0.133  val_loss=1.8242  val_acc=0.132  (7.3s)
+      Epoch  30/180  train_loss=2.2046  train_acc=0.208  val_loss=2.1870  val_acc=0.126  (7.3s)
+      Epoch  40/180  train_loss=1.9617  train_acc=0.263  val_loss=2.3554  val_acc=0.096  (7.2s)
+      Epoch  50/180  train_loss=1.8434  train_acc=0.299  val_loss=2.4894  val_acc=0.110  (7.3s)
+      Epoch  60/180  train_loss=1.8255  train_acc=0.299  val_loss=2.5574  val_acc=0.113  (7.3s)
+      Early stopping at epoch 65
+      Test (Study 1):  loss=4.5471  acc=0.092
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+============================================================
+STEP 1b: Word error rate (triphones)
+============================================================
+
+
+Summary report saved to: /home/lalith/zetta/results/summary_report.txt
+======================================================================
+ZETTA — Evaluation Summary Report
+Generated: 2026-03-17 21:39:10
+======================================================================
+
+WORD ERROR RATE (TRIPHONES)
+----------------------------------------
+  erp/cvc_real_words/study2_val: WER=0.642 (n=120)
+  erp/cvc_pseudowords/study2_val: WER=0.708 (n=120)
+  dda/cvc_real_words/study2_val: WER=0.825 (n=120)
+  dda/cvc_pseudowords/study2_val: WER=0.817 (n=120)
+
+======================================================================
+Pipeline: preprocess.py → train_all.py → evaluate_all.py
+======================================================================
+
+All results saved to: /home/lalith/zetta/results
+Done.
+Candidate dda_mtctc_s61 dda_avg_wer=0.82085
+New best: dda_mtctc_s61 (0.82085)
+
+[2/3] Candidate: dda_mtctc_s73
+Args: --seed 73 --monitor-metric val_acc --monitor-mode max --enable-multitask --augment-train --enable-ctc --ctc-weight 0.12 --lr 1.2e-4 --weight-decay 8e-5 --dropout 0.20 --batch-size 64 --max-epochs 200 --patience 40
+Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=True, CTC=True]
+     train=4727  val=1140  test=1249  classes=11
+      Epoch   1/200  train_loss=7.5819  train_acc=0.090  val_loss=1.9270  val_acc=0.053  (7.6s)
+      Epoch  10/200  train_loss=2.6839  train_acc=0.086  val_loss=1.9071  val_acc=0.058  (6.8s)
+      Epoch  20/200  train_loss=1.9505  train_acc=0.276  val_loss=2.5166  val_acc=0.103  (6.8s)
+      Epoch  30/200  train_loss=1.6153  train_acc=0.366  val_loss=2.9039  val_acc=0.108  (6.8s)
+      Epoch  40/200  train_loss=1.4932  train_acc=0.401  val_loss=2.9712  val_acc=0.091  (7.0s)
+      Epoch  50/200  train_loss=1.4678  train_acc=0.417  val_loss=3.0314  val_acc=0.089  (7.1s)
+      Early stopping at epoch 53
+      Test (Study 1):  loss=3.5262  acc=0.131
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+============================================================
+STEP 1b: Word error rate (triphones)
+============================================================
+
+
+Summary report saved to: /home/lalith/zetta/results/summary_report.txt
+======================================================================
+ZETTA — Evaluation Summary Report
+Generated: 2026-03-17 21:45:32
+======================================================================
+
+WORD ERROR RATE (TRIPHONES)
+----------------------------------------
+  erp/cvc_real_words/study2_val: WER=0.642 (n=120)
+  erp/cvc_pseudowords/study2_val: WER=0.708 (n=120)
+  dda/cvc_real_words/study2_val: WER=0.833 (n=120)
+  dda/cvc_pseudowords/study2_val: WER=0.892 (n=120)
+
+======================================================================
+Pipeline: preprocess.py → train_all.py → evaluate_all.py
+======================================================================
+
+All results saved to: /home/lalith/zetta/results
+Done.
+Candidate dda_mtctc_s73 dda_avg_wer=0.8625
+
+[3/3] Candidate: dda_mtctc_s89
+Args: --seed 89 --monitor-metric val_acc --monitor-mode max --enable-multitask --augment-train --enable-ctc --ctc-weight 0.08 --lr 1.8e-4 --weight-decay 5e-5 --dropout 0.24 --batch-size 64 --max-epochs 180 --patience 36
+Planning 1 experiments.
+
+[1/1] dda/phoneme_identity/null  (GPU 0)  [MT=True, CTC=True]
+     train=4727  val=1140  test=1249  classes=11
+      Epoch   1/180  train_loss=6.7270  train_acc=0.097  val_loss=1.9252  val_acc=0.053  (7.9s)
+      Epoch  10/180  train_loss=2.5593  train_acc=0.089  val_loss=1.9263  val_acc=0.053  (7.3s)
+      Epoch  20/180  train_loss=2.4133  train_acc=0.137  val_loss=1.8671  val_acc=0.118  (7.3s)
+      Epoch  30/180  train_loss=1.8525  train_acc=0.303  val_loss=2.6549  val_acc=0.101  (7.9s)
+      Epoch  40/180  train_loss=1.6090  train_acc=0.362  val_loss=2.8161  val_acc=0.095  (7.8s)
+      Epoch  50/180  train_loss=1.5530  train_acc=0.393  val_loss=2.9777  val_acc=0.099  (7.6s)
+      Early stopping at epoch 57
+      Test (Study 1):  loss=4.4809  acc=0.140
+
+
+Done.  1 experiments completed.
+Models saved to: /home/lalith/zetta/models_out
+============================================================
+STEP 1b: Word error rate (triphones)
+============================================================
+
+
+Summary report saved to: /home/lalith/zetta/results/summary_report.txt
+======================================================================
+ZETTA — Evaluation Summary Report
+Generated: 2026-03-17 21:52:56
+======================================================================
+
+WORD ERROR RATE (TRIPHONES)
+----------------------------------------
+  erp/cvc_real_words/study2_val: WER=0.642 (n=120)
+  erp/cvc_pseudowords/study2_val: WER=0.708 (n=120)
+  dda/cvc_real_words/study2_val: WER=0.758 (n=120)
+  dda/cvc_pseudowords/study2_val: WER=0.858 (n=120)
+
+======================================================================
+Pipeline: preprocess.py → train_all.py → evaluate_all.py
+======================================================================
+
+All results saved to: /home/lalith/zetta/results
+Done.
+Candidate dda_mtctc_s89 dda_avg_wer=0.8083
+New best: dda_mtctc_s89 (0.8083)
+
+Mini-sweep complete. Best candidate: dda_mtctc_s89 (dda_avg_wer=0.8083)
+Restored best DDA checkpoint to models_out/dda/phoneme_identity/null
+============================================================
+STEP 1b: Word error rate (triphones)
+============================================================
+
+
+Summary report saved to: /home/lalith/zetta/results/summary_report.txt
+======================================================================
+ZETTA — Evaluation Summary Report
+Generated: 2026-03-17 21:53:00
+======================================================================
+
+WORD ERROR RATE (TRIPHONES)
+----------------------------------------
+  erp/cvc_real_words/study2_val: WER=0.642 (n=120)
+  erp/cvc_pseudowords/study2_val: WER=0.708 (n=120)
+  dda/cvc_real_words/study2_val: WER=0.758 (n=120)
+  dda/cvc_pseudowords/study2_val: WER=0.858 (n=120)
+
+======================================================================
+Pipeline: preprocess.py → train_all.py → evaluate_all.py
+======================================================================
+
+All results saved to: /home/lalith/zetta/results
+Done.
+Final WER report: /home/lalith/zetta/results/summary_report.txt

@@ -1,0 +1,7 @@
+task,model,eval,n_test_trials,acc,f1_macro
+phoneme_identity,acoustic_lr,SPLIT_8_8_NULL,2985,1.0,1.0
+place,acoustic_lr,SPLIT_8_8_NULL,2210,1.0,1.0
+manner,acoustic_lr,SPLIT_8_8_NULL,2210,1.0,1.0
+voicing,acoustic_lr,SPLIT_8_8_NULL,2210,1.0,1.0
+category,acoustic_lr,SPLIT_8_8_NULL,2985,1.0,1.0
+complexity,acoustic_lr,SPLIT_8_8_NULL,2985,1.0,1.0

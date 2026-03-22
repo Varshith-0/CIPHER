@@ -1,0 +1,9 @@
+feature_type,task,n_samples,perceived_only_correct,spoken_only_correct,chi2,p_value,significant_p05
+erp,phoneme_identity,660,-1,-1,,,False
+erp,place,360,-1,-1,,,False
+erp,manner,360,-1,-1,,,False
+erp,category,660,-1,-1,,,False
+dda,phoneme_identity,660,-1,-1,,,False
+dda,place,360,-1,-1,,,False
+dda,manner,360,-1,-1,,,False
+dda,category,660,-1,-1,,,False

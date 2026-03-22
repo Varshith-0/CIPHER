@@ -1,0 +1,230 @@
+=== LOSO WER | ERP ===
+[erp fold 01/16] held_out=sub-S01 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2804  train_acc=0.186  val_loss=2.2021  val_acc=0.200  lr=1.00e-04  (1.5s)
+      Epoch  10/150  train_loss=1.6542  train_acc=0.246  val_loss=1.6577  val_acc=0.300  lr=5.00e-04  (1.0s)
+      Epoch  20/150  train_loss=1.6342  train_acc=0.265  val_loss=1.6586  val_acc=0.250  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.6284  train_acc=0.247  val_loss=1.6635  val_acc=0.250  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 34
+[erp fold 02/16] held_out=sub-S02 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2170  train_acc=0.157  val_loss=2.2092  val_acc=0.225  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6017  train_acc=0.243  val_loss=1.6536  val_acc=0.300  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5834  train_acc=0.271  val_loss=1.6646  val_acc=0.250  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5754  train_acc=0.262  val_loss=1.6714  val_acc=0.250  lr=4.75e-04  (0.9s)
+      Epoch  40/150  train_loss=1.5792  train_acc=0.283  val_loss=1.6668  val_acc=0.200  lr=4.46e-04  (0.9s)
+      Early stopping at epoch 40
+[erp fold 03/16] held_out=sub-S03 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2372  train_acc=0.195  val_loss=2.2111  val_acc=0.300  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6054  train_acc=0.267  val_loss=1.6630  val_acc=0.275  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5947  train_acc=0.268  val_loss=1.6633  val_acc=0.200  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5917  train_acc=0.244  val_loss=1.6648  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 31
+[erp fold 04/16] held_out=sub-S04 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2325  train_acc=0.190  val_loss=2.2125  val_acc=0.250  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6025  train_acc=0.285  val_loss=1.6643  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5954  train_acc=0.253  val_loss=1.6612  val_acc=0.212  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5909  train_acc=0.269  val_loss=1.6657  val_acc=0.188  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 36
+[erp fold 05/16] held_out=sub-S05 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2307  train_acc=0.189  val_loss=2.2097  val_acc=0.250  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6042  train_acc=0.266  val_loss=1.6628  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5822  train_acc=0.309  val_loss=1.6538  val_acc=0.200  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5910  train_acc=0.290  val_loss=1.6813  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Epoch  40/150  train_loss=1.5910  train_acc=0.280  val_loss=1.6613  val_acc=0.312  lr=4.46e-04  (0.9s)
+      Epoch  50/150  train_loss=1.5253  train_acc=0.306  val_loss=1.7277  val_acc=0.250  lr=4.06e-04  (0.9s)
+      Epoch  60/150  train_loss=1.3936  train_acc=0.556  val_loss=1.7097  val_acc=0.250  lr=3.59e-04  (1.1s)
+      Epoch  70/150  train_loss=1.2022  train_acc=0.661  val_loss=2.1734  val_acc=0.287  lr=3.06e-04  (0.9s)
+      Epoch  80/150  train_loss=1.0700  train_acc=0.766  val_loss=2.3307  val_acc=0.300  lr=2.51e-04  (0.9s)
+      Epoch  90/150  train_loss=0.9497  train_acc=0.859  val_loss=2.3015  val_acc=0.338  lr=1.95e-04  (0.9s)
+      Epoch 100/150  train_loss=0.8205  train_acc=0.919  val_loss=2.4242  val_acc=0.300  lr=1.42e-04  (0.9s)
+      Epoch 110/150  train_loss=0.7046  train_acc=0.945  val_loss=2.7031  val_acc=0.287  lr=9.49e-05  (0.9s)
+      Early stopping at epoch 111
+[erp fold 06/16] held_out=sub-S06 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2300  train_acc=0.188  val_loss=2.2089  val_acc=0.312  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6057  train_acc=0.273  val_loss=1.6652  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5952  train_acc=0.265  val_loss=1.6630  val_acc=0.200  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.6351  train_acc=0.250  val_loss=3.6554  val_acc=0.025  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 31
+[erp fold 07/16] held_out=sub-S07 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2342  train_acc=0.169  val_loss=2.2190  val_acc=0.250  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6052  train_acc=0.269  val_loss=1.6625  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5887  train_acc=0.296  val_loss=1.6574  val_acc=0.250  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5933  train_acc=0.244  val_loss=1.6625  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Epoch  40/150  train_loss=1.5901  train_acc=0.220  val_loss=1.6602  val_acc=0.250  lr=4.46e-04  (0.9s)
+      Early stopping at epoch 45
+[erp fold 08/16] held_out=sub-S08 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2324  train_acc=0.168  val_loss=2.2133  val_acc=0.300  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6037  train_acc=0.271  val_loss=1.6609  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5953  train_acc=0.261  val_loss=1.6629  val_acc=0.200  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5929  train_acc=0.251  val_loss=1.6619  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 31
+[erp fold 09/16] held_out=sub-S09 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2289  train_acc=0.170  val_loss=2.2079  val_acc=0.300  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6050  train_acc=0.276  val_loss=1.6607  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5958  train_acc=0.245  val_loss=1.6639  val_acc=0.200  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5923  train_acc=0.250  val_loss=1.6632  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 31
+[erp fold 10/16] held_out=sub-S10 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2262  train_acc=0.184  val_loss=2.2056  val_acc=0.250  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6045  train_acc=0.267  val_loss=1.6630  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5946  train_acc=0.268  val_loss=1.6641  val_acc=0.200  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5924  train_acc=0.245  val_loss=1.6635  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 36
+[erp fold 11/16] held_out=sub-S11 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2278  train_acc=0.172  val_loss=2.2075  val_acc=0.300  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6067  train_acc=0.273  val_loss=1.6627  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5942  train_acc=0.260  val_loss=1.6570  val_acc=0.300  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5877  train_acc=0.280  val_loss=1.6710  val_acc=0.250  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 31
+[erp fold 12/16] held_out=sub-S12 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2270  train_acc=0.176  val_loss=2.2032  val_acc=0.312  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6035  train_acc=0.287  val_loss=1.6599  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5954  train_acc=0.271  val_loss=1.6633  val_acc=0.188  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5933  train_acc=0.259  val_loss=1.6617  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 31
+[erp fold 13/16] held_out=sub-S13 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2258  train_acc=0.165  val_loss=2.2022  val_acc=0.275  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6050  train_acc=0.264  val_loss=1.6650  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5850  train_acc=0.282  val_loss=1.6542  val_acc=0.263  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.4837  train_acc=0.440  val_loss=1.7231  val_acc=0.212  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 36
+[erp fold 14/16] held_out=sub-S14 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2258  train_acc=0.179  val_loss=2.2048  val_acc=0.250  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6046  train_acc=0.275  val_loss=1.6644  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5948  train_acc=0.266  val_loss=1.6603  val_acc=0.212  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.5874  train_acc=0.276  val_loss=1.6874  val_acc=0.200  lr=4.75e-04  (0.9s)
+      Epoch  40/150  train_loss=1.5604  train_acc=0.298  val_loss=1.7299  val_acc=0.200  lr=4.46e-04  (0.9s)
+      Epoch  50/150  train_loss=1.4876  train_acc=0.368  val_loss=1.8597  val_acc=0.212  lr=4.06e-04  (0.9s)
+      Early stopping at epoch 58
+[erp fold 15/16] held_out=sub-S15 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2244  train_acc=0.172  val_loss=2.2058  val_acc=0.263  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6037  train_acc=0.275  val_loss=1.6615  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5815  train_acc=0.320  val_loss=1.6682  val_acc=0.263  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.3730  train_acc=0.552  val_loss=1.8418  val_acc=0.250  lr=4.75e-04  (0.9s)
+      Epoch  40/150  train_loss=1.0546  train_acc=0.738  val_loss=2.2699  val_acc=0.200  lr=4.46e-04  (0.9s)
+      Epoch  50/150  train_loss=0.8201  train_acc=0.871  val_loss=3.0012  val_acc=0.212  lr=4.06e-04  (0.9s)
+      Epoch  60/150  train_loss=0.9637  train_acc=0.922  val_loss=2.4502  val_acc=0.237  lr=3.59e-04  (0.9s)
+      Early stopping at epoch 64
+[erp fold 16/16] held_out=sub-S16 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2244  train_acc=0.172  val_loss=2.2017  val_acc=0.287  lr=1.00e-04  (0.9s)
+      Epoch  10/150  train_loss=1.6037  train_acc=0.275  val_loss=1.6614  val_acc=0.250  lr=5.00e-04  (0.9s)
+      Epoch  20/150  train_loss=1.5815  train_acc=0.320  val_loss=1.6693  val_acc=0.225  lr=4.94e-04  (0.9s)
+      Epoch  30/150  train_loss=1.3730  train_acc=0.552  val_loss=1.9523  val_acc=0.263  lr=4.75e-04  (0.9s)
+      Early stopping at epoch 36
+=== LOSO WER | DDA ===
+[dda fold 01/16] held_out=sub-S01 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.2382  train_acc=0.228  val_loss=2.1531  val_acc=0.225  lr=1.00e-04  (1.2s)
+      Epoch  10/150  train_loss=1.6468  train_acc=0.248  val_loss=1.6617  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.3406  train_acc=0.543  val_loss=2.0547  val_acc=0.225  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=0.8688  train_acc=0.894  val_loss=2.7030  val_acc=0.275  lr=4.75e-04  (1.1s)
+      Epoch  40/150  train_loss=0.7615  train_acc=0.964  val_loss=3.0070  val_acc=0.225  lr=4.46e-04  (1.1s)
+      Epoch  50/150  train_loss=0.6643  train_acc=0.987  val_loss=3.3237  val_acc=0.263  lr=4.06e-04  (1.1s)
+      Epoch  60/150  train_loss=0.7646  train_acc=0.993  val_loss=2.9911  val_acc=0.212  lr=3.59e-04  (1.1s)
+      Early stopping at epoch 64
+[dda fold 02/16] held_out=sub-S02 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1743  train_acc=0.207  val_loss=2.1578  val_acc=0.250  lr=1.00e-04  (1.0s)
+      Epoch  10/150  train_loss=1.5956  train_acc=0.235  val_loss=1.6583  val_acc=0.250  lr=5.00e-04  (1.0s)
+      Epoch  20/150  train_loss=1.5307  train_acc=0.381  val_loss=1.7904  val_acc=0.212  lr=4.94e-04  (1.0s)
+      Epoch  30/150  train_loss=1.0553  train_acc=0.756  val_loss=2.5387  val_acc=0.175  lr=4.75e-04  (1.0s)
+      Epoch  40/150  train_loss=0.7771  train_acc=0.926  val_loss=2.7515  val_acc=0.263  lr=4.46e-04  (1.1s)
+      Epoch  50/150  train_loss=0.6713  train_acc=0.962  val_loss=2.9988  val_acc=0.275  lr=4.06e-04  (1.1s)
+      Epoch  60/150  train_loss=0.8308  train_acc=0.972  val_loss=2.7294  val_acc=0.263  lr=3.59e-04  (1.1s)
+      Early stopping at epoch 69
+[dda fold 03/16] held_out=sub-S03 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1860  train_acc=0.218  val_loss=2.1541  val_acc=0.225  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6015  train_acc=0.270  val_loss=1.6667  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.3417  train_acc=0.572  val_loss=1.8898  val_acc=0.325  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=0.7804  train_acc=0.933  val_loss=2.8634  val_acc=0.200  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 38
+[dda fold 04/16] held_out=sub-S04 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1882  train_acc=0.216  val_loss=2.1478  val_acc=0.275  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6016  train_acc=0.259  val_loss=1.6716  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.4162  train_acc=0.438  val_loss=2.0462  val_acc=0.175  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.2275  train_acc=0.565  val_loss=2.2524  val_acc=0.263  lr=4.75e-04  (1.1s)
+      Epoch  40/150  train_loss=0.8345  train_acc=0.879  val_loss=2.6864  val_acc=0.300  lr=4.46e-04  (1.0s)
+      Epoch  50/150  train_loss=0.6504  train_acc=0.960  val_loss=3.0678  val_acc=0.312  lr=4.06e-04  (1.0s)
+      Early stopping at epoch 56
+[dda fold 05/16] held_out=sub-S05 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1899  train_acc=0.226  val_loss=2.1613  val_acc=0.212  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6016  train_acc=0.272  val_loss=1.6675  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.1242  train_acc=0.736  val_loss=2.4868  val_acc=0.250  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=0.7536  train_acc=0.946  val_loss=3.0317  val_acc=0.250  lr=4.75e-04  (1.1s)
+      Epoch  40/150  train_loss=0.6595  train_acc=0.970  val_loss=2.8791  val_acc=0.287  lr=4.46e-04  (1.1s)
+      Epoch  50/150  train_loss=0.6117  train_acc=0.975  val_loss=3.4778  val_acc=0.225  lr=4.06e-04  (1.1s)
+      Early stopping at epoch 53
+[dda fold 06/16] held_out=sub-S06 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1863  train_acc=0.214  val_loss=2.1509  val_acc=0.275  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6027  train_acc=0.254  val_loss=1.6695  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.4661  train_acc=0.435  val_loss=1.8689  val_acc=0.225  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.1937  train_acc=0.635  val_loss=2.2646  val_acc=0.237  lr=4.75e-04  (1.1s)
+      Epoch  40/150  train_loss=0.9095  train_acc=0.842  val_loss=2.6957  val_acc=0.225  lr=4.46e-04  (1.1s)
+      Epoch  50/150  train_loss=0.6962  train_acc=0.932  val_loss=3.1304  val_acc=0.250  lr=4.06e-04  (1.1s)
+      Early stopping at epoch 58
+[dda fold 07/16] held_out=sub-S07 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1853  train_acc=0.220  val_loss=2.1497  val_acc=0.212  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6030  train_acc=0.263  val_loss=1.6683  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.4636  train_acc=0.417  val_loss=1.9249  val_acc=0.225  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.1586  train_acc=0.660  val_loss=2.2711  val_acc=0.237  lr=4.75e-04  (1.1s)
+      Epoch  40/150  train_loss=0.9718  train_acc=0.738  val_loss=2.4921  val_acc=0.287  lr=4.46e-04  (1.1s)
+      Epoch  50/150  train_loss=0.8062  train_acc=0.893  val_loss=2.7424  val_acc=0.300  lr=4.06e-04  (1.1s)
+      Early stopping at epoch 56
+[dda fold 08/16] held_out=sub-S08 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1882  train_acc=0.226  val_loss=2.1498  val_acc=0.225  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6017  train_acc=0.259  val_loss=1.6656  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.5909  train_acc=0.279  val_loss=1.6820  val_acc=0.200  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.5951  train_acc=0.244  val_loss=1.6608  val_acc=0.200  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 38
+[dda fold 09/16] held_out=sub-S09 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1894  train_acc=0.225  val_loss=2.1575  val_acc=0.275  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6012  train_acc=0.262  val_loss=1.6669  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.0859  train_acc=0.800  val_loss=2.3340  val_acc=0.338  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=0.7510  train_acc=0.946  val_loss=2.9610  val_acc=0.225  lr=4.75e-04  (1.1s)
+      Epoch  40/150  train_loss=0.6463  train_acc=0.981  val_loss=3.3453  val_acc=0.263  lr=4.46e-04  (1.0s)
+      Epoch  50/150  train_loss=0.6176  train_acc=0.979  val_loss=3.4470  val_acc=0.263  lr=4.06e-04  (1.0s)
+      Early stopping at epoch 50
+[dda fold 10/16] held_out=sub-S10 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1907  train_acc=0.213  val_loss=2.1578  val_acc=0.237  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6021  train_acc=0.267  val_loss=1.6676  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.0699  train_acc=0.791  val_loss=2.5718  val_acc=0.275  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=0.7932  train_acc=0.955  val_loss=2.8769  val_acc=0.225  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 38
+[dda fold 11/16] held_out=sub-S11 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1892  train_acc=0.219  val_loss=2.1602  val_acc=0.200  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6021  train_acc=0.269  val_loss=1.6681  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.5914  train_acc=0.265  val_loss=1.6845  val_acc=0.200  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.5950  train_acc=0.237  val_loss=1.6602  val_acc=0.250  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 35
+[dda fold 12/16] held_out=sub-S12 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1891  train_acc=0.210  val_loss=2.1706  val_acc=0.225  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6019  train_acc=0.258  val_loss=1.6698  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.0556  train_acc=0.815  val_loss=2.6059  val_acc=0.250  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=0.7404  train_acc=0.964  val_loss=3.0587  val_acc=0.225  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 35
+[dda fold 13/16] held_out=sub-S13 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1880  train_acc=0.202  val_loss=2.1585  val_acc=0.225  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6016  train_acc=0.248  val_loss=1.6688  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.4960  train_acc=0.392  val_loss=1.8602  val_acc=0.250  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.2555  train_acc=0.564  val_loss=2.3092  val_acc=0.250  lr=4.75e-04  (1.2s)
+      Epoch  40/150  train_loss=0.8686  train_acc=0.846  val_loss=2.7184  val_acc=0.300  lr=4.46e-04  (1.1s)
+      Epoch  50/150  train_loss=0.6336  train_acc=0.972  val_loss=3.2823  val_acc=0.237  lr=4.06e-04  (1.0s)
+      Epoch  60/150  train_loss=0.8792  train_acc=0.979  val_loss=2.9931  val_acc=0.175  lr=3.59e-04  (1.0s)
+      Early stopping at epoch 64
+[dda fold 14/16] held_out=sub-S14 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1872  train_acc=0.221  val_loss=2.1583  val_acc=0.212  lr=1.00e-04  (1.0s)
+      Epoch  10/150  train_loss=1.6034  train_acc=0.257  val_loss=1.6703  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.5903  train_acc=0.271  val_loss=1.6816  val_acc=0.200  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.5945  train_acc=0.242  val_loss=1.6613  val_acc=0.200  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 38
+[dda fold 15/16] held_out=sub-S15 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1896  train_acc=0.215  val_loss=2.1614  val_acc=0.250  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6039  train_acc=0.259  val_loss=1.6679  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.5916  train_acc=0.259  val_loss=1.6843  val_acc=0.200  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.6055  train_acc=0.246  val_loss=1.6718  val_acc=0.200  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 35
+[dda fold 16/16] held_out=sub-S16 train_subs=14 val_subs=1
+      Epoch   1/150  train_loss=2.1896  train_acc=0.215  val_loss=2.1596  val_acc=0.212  lr=1.00e-04  (1.1s)
+      Epoch  10/150  train_loss=1.6039  train_acc=0.259  val_loss=1.6683  val_acc=0.250  lr=5.00e-04  (1.1s)
+      Epoch  20/150  train_loss=1.5916  train_acc=0.259  val_loss=1.6843  val_acc=0.200  lr=4.94e-04  (1.1s)
+      Epoch  30/150  train_loss=1.6055  train_acc=0.246  val_loss=1.6717  val_acc=0.200  lr=4.75e-04  (1.1s)
+      Early stopping at epoch 35
+Saved: /home/lalith/zetta/results/tables/wer_loso_cipher_cvc_folds.csv
+Saved: /home/lalith/zetta/results/tables/wer_loso_cipher_cvc_summary.csv
