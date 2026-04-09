@@ -1,6 +1,6 @@
 # CIPHER
 
-Paper: [CIPHER](PASTE_PAPER_URL_HERE)
+Paper: [CIPHER]((https://arxiv.org/abs/2604.02362))
 
 ## Overview
 
