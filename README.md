@@ -1,6 +1,6 @@
 # CIPHER
 
-Paper: [CIPHER]((https://arxiv.org/abs/2604.02362))
+Paper: [CIPHER](https://arxiv.org/abs/2604.02362)
 
 ## Overview
 
